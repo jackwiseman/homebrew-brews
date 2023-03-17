@@ -1,10 +1,12 @@
-# Jackwiseman Tap
+# homebrew-brews
+
+A collection of software I use daily but have yet to submit to homebrew-core
 
 ## How do I install these formulae?
 
-`brew install jackwiseman/tap/<formula>`
+`brew install jackwiseman/brews/<formula>`
 
-Or `brew tap jackwiseman/tap` and then `brew install <formula>`.
+Or `brew tap jackwiseman/brews` and then `brew install <formula>`.
 
 ## Documentation
 
