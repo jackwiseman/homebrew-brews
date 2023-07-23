@@ -1,6 +1,6 @@
 cask "font-monaco-patched" do
   version ":latest"
-  sha256 "b7df23b2e9c9155cfaa983c171cf4c2af8627a7b4814e10899879fdf18bd918a"
+  sha256 "4d98fc870f17d0b73d6691edf4fdbe108f5071219566637a7a522b1b0d27f82b"
 
   url "https://github.com/Karmenzind/monaco-nerd-fonts/raw/master/fonts/Monaco%20Nerd%20Font%20Complete.ttf"
   name "font-monaco-patched"
