@@ -4,7 +4,7 @@ cask "font-monaco-patched" do
 
   url "https://github.com/Karmenzind/monaco-nerd-fonts/raw/master/fonts/Monaco%20Nerd%20Font%20Complete.ttf"
   name "font-monaco-patched"
-  desc "patched monaco nerd font"
+  desc "Patched monaco nerd font"
   homepage "https://github.com/Karmenzind/monaco-nerd-fonts"
 
   font "Monaco Nerd Font Complete.ttf"
