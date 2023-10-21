@@ -3,7 +3,8 @@ class Mgitstatus < Formula
   homepage "https://github.com/fboender/multi-git-status"
   url "https://github.com/fboender/multi-git-status/archive/refs/tags/2.2.tar.gz"
   sha256 "d26a71cd2efd80416c28d59632665341bc393d2d5fdde20dd588f959b0faea6a"
-  license "MIT License"
+  version "2.2"
+  license "MIT"
 
   def install
     bin.install "mgitstatus"
