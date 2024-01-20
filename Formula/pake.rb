@@ -2,9 +2,9 @@ require "language/node"
 
 class Pake < Formula
   desc "Turn any webpage into a desktop app with Rust"
-  homepage "https://github.com/tw93/Pake"
-  url "https://github.com/tw93/Pake/archive/refs/tags/V2.3.2.tar.gz"
-  sha256 "fd710fe0357560f9b498016358ee705983371d5f40734f97991405ab7128588c"
+  homepage "https://github.com/tw93/pake#readme"
+  url "https://registry.npmjs.org/pake-cli/-/pake-cli-2.3.6.tgz"
+  sha256 "363c1a22cac7266aca44bf27759458da49365ab0df4daad7812070e9c61559e4"
   license "MIT"
 
   depends_on "node"
@@ -15,6 +15,7 @@ class Pake < Formula
   end
 
   test do
-    raise "test not implemented"
+    output = shell_output("#{bin}/pake --version")
+    assert_match "2.3.6", output
   end
 end
